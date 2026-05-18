@@ -1,0 +1,19 @@
+TOM NEVAT WEBSITE - HOW TO USE
+
+1. Open index.html to preview the site on your computer.
+2. Main editing file: js/data.js
+3. Images are inside the images folder.
+4. When uploading to GitHub, upload ALL files and folders in this folder:
+   index.html, about.html, contact.html, css, js, images, etc.
+5. Important: index.html must be at the top level of the GitHub repository, not inside another folder.
+
+Latest design settings:
+- White background
+- Karla body font
+- Clean sans-serif headings
+- No image outlines
+- Smaller gallery gaps
+- About text without frame
+- Contact with frame
+- Good Mood Prints link included
+- Contact email: tomnevat@gmail.com

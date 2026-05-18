@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720" role="img" aria-label="DRAWING 02">
+  <rect width="100%" height="100%" fill="#fbf7ef"/>
+  <rect x="18" y="18" width="964" height="684" fill="none" stroke="#111" stroke-width="3" opacity=".9"/>
+  <path d="M250 510 C 260 250, 450 140, 585 270 C 720 395, 575 580, 390 535" fill="none" stroke="#111" stroke-width="8" stroke-linecap="round"/><path d="M420 500 C430 405, 475 322, 545 246" fill="none" stroke="#9da98d" stroke-width="7" stroke-linecap="round"/><path d="M440 380 C360 340, 350 250, 440 228 C520 205, 570 270, 545 340" fill="none" stroke="#111" stroke-width="5"/>
+  <text x="50%" y="88%" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" letter-spacing="3" fill="#111">DRAWING 02</text>
+</svg>

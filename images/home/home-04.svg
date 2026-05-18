@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-label="SKETCHBOOK">
+  <rect width="100%" height="100%" fill="#fbf7ef"/>
+  <rect x="18" y="18" width="964" height="664" fill="none" stroke="#111" stroke-width="3" opacity=".9"/>
+  <path d="M160 150 L840 120 L795 560 L205 610 Z" fill="none" stroke="#111" stroke-width="5"/><path d="M230 190 C350 155 490 235 700 180" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/><path d="M230 235 C350 200 490 280 700 225" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/><path d="M230 280 C350 245 490 325 700 270" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/><path d="M230 325 C350 290 490 370 700 315" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/><path d="M230 370 C350 335 490 415 700 360" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/><path d="M230 415 C350 380 490 460 700 405" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/><path d="M230 460 C350 425 490 505 700 450" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/><path d="M230 505 C350 470 490 550 700 495" fill="none" stroke="#6f91a6" stroke-width="4" opacity=".8"/>
+  <text x="50%" y="88%" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" letter-spacing="3" fill="#111">SKETCHBOOK</text>
+</svg>
