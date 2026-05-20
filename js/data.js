@@ -80,10 +80,10 @@ window.SITE_DATA = {
         ]
       },
       {
-        slug: "new-collection-one",
-        title: "New Collection",
+        slug: "orchid",
+        title: "orchid",
         cover: "",
-        description: "Placeholder for a future pattern collection.",
+        description: "orchid and butterfly",
         placeholder: true,
         gallery: [
           { placeholder: true, size: "square", caption: "Empty slot" },
