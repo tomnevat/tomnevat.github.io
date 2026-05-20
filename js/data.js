@@ -59,8 +59,10 @@ window.SITE_DATA = {
           { src: "images/collections/wildflowers/pink-notebook-mockup.jpg", alt: "Pink Wildflowers notebook mockup", size: "wide" },
           { src: "images/collections/wildflowers/warm-colorway.jpg", alt: "Warm floral colorway", size: "normal" },
           { src: "images/collections/wildflowers/soft-colorway.jpg", alt: "Soft floral colorway", size: "normal" },
+          { src: "images/collections/wildflowers/wildflowers-red-orange-pink.png", alt: "Soft floral colorway", size: "normal" },
           { placeholder: true, size: "square", caption: "Empty slot" },
           { placeholder: true, size: "square", caption: "Empty slot" },
+           { placeholder: true, size: "square", caption: "Empty slot" },
           { placeholder: true, size: "square", caption: "Empty slot" }
         ]
       },
