@@ -50,7 +50,7 @@ window.SITE_DATA = {
       {
         slug: "wildflowers",
         title: "Wildflowers",
-        cover: "images/collections/wildflowers/cover.jpg",
+        cover: "images/collections/wildflowers/wildflowers-red-orange-pink.png",
         description: "A hand-drawn floral collection combining warm orange blooms, soft pink colorways, leafy stems, and painterly botanical texture.",
         gallery: [
           { src: "images/collections/wildflowers/orange-pattern.jpg", alt: "Orange Wildflowers pattern", size: "large" },
