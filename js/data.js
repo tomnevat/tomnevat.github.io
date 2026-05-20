@@ -82,13 +82,12 @@ window.SITE_DATA = {
       {
         slug: "orchid",
         title: "orchid",
-        cover: "",
+        cover: "images/collections/Orchid-and-Butterflies/Orchid-butterfly-cover.jpg",
         description: "orchid and butterfly",
-        placeholder: true,
-        gallery: [
-          { placeholder: true, size: "square", caption: "Empty slot" },
-          { placeholder: true, size: "square", caption: "Empty slot" },
-          { placeholder: true, size: "wide", caption: "Empty slot" }
+       gallery: [
+          { src: "images/collections/Orchid-and-Butterflies/Orchid-butterfly-pattern1.jpg", alt: "Orchid butterfly pattern", size: "wide" },
+          { src: "images/collections/Orchid-and-Butterflies/Orchid-butterfly-pattern2.2.jpg", alt: "butterflies", size: "normal" },
+          { src: "images/collections/Orchid-and-Butterflies/Orchid-butterfly-pattern3.2.jpg", alt: "check", size: "large" },
         ]
       },
       {
