@@ -9,11 +9,20 @@ TOM NEVAT WEBSITE - HOW TO USE
 
 Latest design settings:
 - White background
-- Karla body font
-- Clean sans-serif headings
-- No image outlines
-- Smaller gallery gaps
-- About text without frame
-- Contact with frame
-- Good Mood Prints link included
+- Karla font for all text
+- Smaller logo on homepage and header
+- Removed the first TOM NEVAT heading below the logo
+- Static gallery images only, no popup captions
+- Full-width gallery with equal image height and variable image width
+- Pattern collection galleries use the same full-width layout
+- Wildflowers combines the pink and orange floral work
+- Boho & Seaside Coordinates combines boho and shell work
+- Illustration portfolio has two categories only
+- Footer includes a prepared phone field next to the social links
 - Contact email: tomnevat@gmail.com
+- Good Mood Prints link included
+
+PHONE NOTE:
+The footer phone field is ready, but currently empty.
+To add the phone number, open js/data.js and set:
+phone: "+972-...",

@@ -32,19 +32,23 @@ That file controls:
 src: "images/collections/florals-forever/my-real-image.jpg"
 ```
 
-## Mosaic image sizes
+## Gallery image sizes
 
-Use one of these values:
+Galleries now use equal-height rows with variable image widths. Use one of these values:
 
 ```js
+size: "square"
 size: "small"
 size: "normal"
 size: "wide"
-size: "tall"
 size: "large"
 ```
 
-That controls the image size in the free mosaic gallery.
+To add an empty test tile, use:
+
+```js
+{ placeholder: true, size: "square", caption: "Empty slot" }
+```
 
 ## How collection pages work
 
@@ -86,15 +90,17 @@ Use the root folder as the published site source.
 
 - The logo is saved as `images/tom-nevat-logo.png`.
 - The current gallery images are placeholders.
-- Replace the placeholder email in `js/data.js` before publishing.
+- Contact email is already set to `tomnevat@gmail.com`.
+- To show a phone number in the footer, edit `brand.phone` in `js/data.js`.
 
 
 ## Current real content added
 
 - Contact email: tomnevat@gmail.com
 - Social links include Instagram, Patterned, Pinterest, Spoonflower, and Good Mood Prints.
-- Home gallery uses the first uploaded floral patterns, mockups, and illustration samples as placeholders.
-- Surface pattern portfolio is split into separate starting collections instead of one combined floral collection.
+- Home gallery uses the uploaded floral patterns, mockups, and illustration samples as placeholders.
+- Surface pattern portfolio now includes Wildflowers, Boho & Seaside Coordinates, and dummy future collections.
+- Illustration portfolio now has two categories: Painting, Drawing and Print; Sketchbook, Art Challenges and Personal Projects.
 
 ## Editing text
 

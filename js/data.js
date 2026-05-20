@@ -1,15 +1,17 @@
 /*
   TOM NEVAT PORTFOLIO DATA
   -------------------------
-  This is the main file you edit when you want to update the site.
-
-  For mosaic gallery image sizes, use one of:
-  "small", "normal", "wide", "tall", "large"
+  Main editable content file.
 
   To replace or add an image:
   1. Put the image inside the matching images folder.
   2. Change the src path below.
-  3. Update alt text and caption.
+  3. Update alt text.
+
+  Gallery layout:
+  - All gallery images use the same height.
+  - Width is controlled by size: "square", "small", "normal", "wide", "large".
+  - Add { placeholder: true, size: "square", caption: "Empty slot" } for an empty test tile.
 */
 
 window.SITE_DATA = {
@@ -18,26 +20,27 @@ window.SITE_DATA = {
     logo: "images/tom-nevat-logo.png",
     tagline: "Illustration and Surface Pattern Design",
     intro: "Tom Nevat is a surface pattern designer and illustrator creating hand-drawn artwork for fabric, wallpaper, home decor, stationery, and print products. The work combines expressive line, painterly texture, playful color, and nature-inspired motifs. Selected designs are available for licensing, and custom collections can be created in collaboration with brands and art directors.",
-    email: "tomnevat@gmail.com",
+    email: "TomNevat@gmail.com",
+    phone: "",
     socials: [
-      { label: "Instagram", short: "IG", url: "https://www.instagram.com/tomnevat/" },
-      { label: "Patterned", short: "PT", url: "https://www.patterned.com/tomnevat" },
-      { label: "Pinterest", short: "PI", url: "https://www.pinterest.com/tnevat/" },
-      { label: "Spoonflower", short: "SF", url: "https://www.spoonflower.com/profiles/tomnevat" },
-      { label: "Good Mood Prints", short: "GM", url: "https://www.goodmoodprints.com/artists/tom.nevat?artist=b7f250bc-0982-4dd8-bdad-80d6d76da267" }
+      { label: "Instagram", short: "IG", desc: "recent work, process and studio updates", url: "https://www.instagram.com/tomnevat/" },
+      { label: "Patterned", short: "PT", desc: "surface pattern licensing portfolio", url: "https://www.patterned.com/tomnevat" },
+      { label: "Pinterest", short: "PI", desc: "collections, inspiration and visual boards", url: "https://www.pinterest.com/tnevat/" },
+      { label: "Spoonflower", short: "SF", desc: "shop fabrics and wallpaper", url: "https://www.spoonflower.com/profiles/tomnevat" },
+      { label: "Good Mood Prints", short: "GM", desc: "shop art prints", url: "https://www.goodmoodprints.com/artists/tom.nevat?artist=b7f250bc-0982-4dd8-bdad-80d6d76da267" }
     ]
   },
 
   home: {
     gallery: [
-      { src: "images/home/orange-wildflowers-pattern.jpg", alt: "Orange wildflower surface pattern by Tom Nevat", size: "large", caption: "Orange Wildflowers" },
-      { src: "images/home/orange-notebook-mockup.jpg", alt: "Orange floral pattern notebook mockup", size: "wide", caption: "Pattern Mockup" },
-      { src: "images/home/pink-notebook-mockup.jpg", alt: "Soft pink floral pattern notebook mockup", size: "wide", caption: "Colorway Mockup" },
-      { src: "images/home/pink-wildflowers-pattern.jpg", alt: "Pink and green wildflower surface pattern", size: "tall", caption: "Pink Wildflowers" },
-      { src: "images/home/boho-wallpaper-mockup.jpg", alt: "Boho doodles wallpaper mockup in a children's room", size: "wide", caption: "Wallpaper Mockup" },
-      { src: "images/home/seashells-pattern.jpg", alt: "Blue seashell surface pattern", size: "normal", caption: "Seaside Shells" },
-      { src: "images/home/teapot-illustration.jpg", alt: "Tea pot and fruit illustration", size: "tall", caption: "Illustration" },
-      { src: "images/home/forest-illustration.jpg", alt: "Green forest illustration", size: "normal", caption: "Painting" }
+      { src: "images/home/orange-wildflowers-pattern.jpg", alt: "Orange wildflower surface pattern by Tom Nevat", size: "large" },
+      { src: "images/home/orange-notebook-mockup.jpg", alt: "Orange floral pattern notebook mockup", size: "wide" },
+      { src: "images/home/pink-notebook-mockup.jpg", alt: "Soft pink floral pattern notebook mockup", size: "wide" },
+      { src: "images/home/pink-wildflowers-pattern.jpg", alt: "Pink and green wildflower surface pattern", size: "normal" },
+      { src: "images/home/boho-wallpaper-mockup.jpg", alt: "Boho doodles wallpaper mockup in a children's room", size: "wide" },
+      { src: "images/home/seashells-pattern.jpg", alt: "Blue seashell surface pattern", size: "normal" },
+      { src: "images/home/teapot-illustration.jpg", alt: "Tea pot and fruit illustration", size: "small" },
+      { src: "images/home/forest-illustration.jpg", alt: "Green forest illustration", size: "normal" }
     ]
   },
 
@@ -45,52 +48,66 @@ window.SITE_DATA = {
     intro: "Tom Nevat’s surface pattern portfolio includes hand-drawn florals, playful coordinates, boho marks, coastal motifs, and artwork developed for fabric, wallpaper, paper goods, stationery, and lifestyle products. Designs are available for licensing, with the option to develop new colorways, coordinating prints, or custom collections for a specific product direction.",
     collections: [
       {
-        slug: "orange-wildflowers",
-        title: "Orange Wildflowers",
-        cover: "images/collections/orange-wildflowers/cover.jpg",
-        description: "A warm floral pattern with orange blooms, olive stems, painterly texture, and a soft vintage feeling.",
+        slug: "wildflowers",
+        title: "Wildflowers",
+        cover: "images/collections/wildflowers/cover.jpg",
+        description: "A hand-drawn floral collection combining warm orange blooms, soft pink colorways, leafy stems, and painterly botanical texture.",
         gallery: [
-          { src: "images/collections/orange-wildflowers/pattern.jpg", alt: "Orange Wildflowers pattern", size: "large", caption: "Main Pattern" },
-          { src: "images/collections/orange-wildflowers/notebook-mockup.jpg", alt: "Orange Wildflowers notebook mockup", size: "wide", caption: "Notebook Mockup" }
+          { src: "images/collections/wildflowers/orange-pattern.jpg", alt: "Orange Wildflowers pattern", size: "large" },
+          { src: "images/collections/wildflowers/orange-notebook-mockup.jpg", alt: "Orange Wildflowers notebook mockup", size: "wide" },
+          { src: "images/collections/wildflowers/pink-pattern.jpg", alt: "Pink Wildflowers pattern", size: "normal" },
+          { src: "images/collections/wildflowers/pink-notebook-mockup.jpg", alt: "Pink Wildflowers notebook mockup", size: "wide" },
+          { src: "images/collections/wildflowers/warm-colorway.jpg", alt: "Warm floral colorway", size: "normal" },
+          { src: "images/collections/wildflowers/soft-colorway.jpg", alt: "Soft floral colorway", size: "normal" },
+          { placeholder: true, size: "square", caption: "Empty slot" },
+          { placeholder: true, size: "square", caption: "Empty slot" },
+          { placeholder: true, size: "square", caption: "Empty slot" }
         ]
       },
       {
-        slug: "pink-wildflowers",
-        title: "Pink Wildflowers",
-        cover: "images/collections/pink-wildflowers/cover.jpg",
-        description: "A softer floral direction with pink blooms, fresh greens, and a light botanical mood.",
+        slug: "boho-seaside",
+        title: "Boho & Seaside Coordinates",
+        cover: "images/collections/boho-seaside/cover.jpg",
+        description: "A playful coordinate group with boho doodles, hand-drawn marks, coastal shells, soft blues, and wallpaper/product potential.",
         gallery: [
-          { src: "images/collections/pink-wildflowers/pattern.jpg", alt: "Pink Wildflowers pattern", size: "large", caption: "Main Pattern" },
-          { src: "images/collections/pink-wildflowers/notebook-mockup.jpg", alt: "Pink Wildflowers notebook mockup", size: "wide", caption: "Notebook Mockup" }
+          { src: "images/collections/boho-seaside/boho-blue-coordinate.jpg", alt: "Boho Doodles blue coordinate pattern", size: "normal" },
+          { src: "images/collections/boho-seaside/boho-wallpaper-mockup.jpg", alt: "Boho Doodles wallpaper mockup", size: "wide" },
+          { src: "images/collections/boho-seaside/seashells-pattern.jpg", alt: "Seaside Shells pattern", size: "large" },
+          { placeholder: true, size: "square", caption: "Empty slot" },
+          { placeholder: true, size: "square", caption: "Empty slot" }
         ]
       },
       {
-        slug: "floral-colorways",
-        title: "Floral Colorways",
-        cover: "images/collections/floral-colorways/cover.jpg",
-        description: "Two expressive floral color directions with loose linework, bold blooms, and layered hand-drawn texture.",
+        slug: "new-collection-one",
+        title: "New Collection",
+        cover: "",
+        description: "Placeholder for a future pattern collection.",
+        placeholder: true,
         gallery: [
-          { src: "images/collections/floral-colorways/warm-colorway.jpg", alt: "Warm floral colorway", size: "normal", caption: "Warm Colorway" },
-          { src: "images/collections/floral-colorways/soft-colorway.jpg", alt: "Soft floral colorway", size: "normal", caption: "Soft Colorway" }
+          { placeholder: true, size: "square", caption: "Empty slot" },
+          { placeholder: true, size: "square", caption: "Empty slot" },
+          { placeholder: true, size: "wide", caption: "Empty slot" }
         ]
       },
       {
-        slug: "boho-doodles",
-        title: "Boho Doodles",
-        cover: "images/collections/boho-doodles/cover.jpg",
-        description: "A playful coordinate pattern built from hand-drawn marks, waves, dots, spirals, and simple geometric shapes.",
+        slug: "new-collection-two",
+        title: "New Collection",
+        cover: "",
+        description: "Placeholder for a future pattern collection.",
+        placeholder: true,
         gallery: [
-          { src: "images/collections/boho-doodles/blue-coordinate.jpg", alt: "Boho Doodles blue coordinate pattern", size: "large", caption: "Blue Coordinate" },
-          { src: "images/collections/boho-doodles/wallpaper-mockup.jpg", alt: "Boho Doodles wallpaper mockup", size: "wide", caption: "Wallpaper Mockup" }
+          { placeholder: true, size: "square", caption: "Empty slot" },
+          { placeholder: true, size: "normal", caption: "Empty slot" }
         ]
       },
       {
-        slug: "seaside-shells",
-        title: "Seaside Shells",
-        cover: "images/collections/seaside-shells/cover.jpg",
-        description: "A coastal shell pattern with hand-drawn seashells, starfish, pebbles, and a calm blue palette.",
+        slug: "new-collection-three",
+        title: "New Collection",
+        cover: "",
+        description: "Placeholder for a future pattern collection.",
+        placeholder: true,
         gallery: [
-          { src: "images/collections/seaside-shells/pattern.jpg", alt: "Seaside Shells pattern", size: "large", caption: "Main Pattern" }
+          { placeholder: true, size: "large", caption: "Empty slot" }
         ]
       }
     ]
@@ -100,50 +117,32 @@ window.SITE_DATA = {
     intro: "This illustration portfolio gathers painterly still lifes, botanical studies, sketchbook experiments, personal projects, and art challenges. The work has a warm, handmade quality, with loose shapes, expressive marks, and color palettes that can support editorial, product, stationery, and print projects.",
     categories: [
       {
-        slug: "drawing",
-        title: "Drawing",
-        cover: "images/illustrations/drawing/cover.jpg",
-        description: "Finished illustrations, painted still lifes, and standalone artwork.",
+        slug: "painting-drawing-print",
+        title: "Painting, Drawing and Print",
+        cover: "images/illustrations/painting-drawing-print/cover.jpg",
+        description: "Finished illustrations, painted still lifes, drawings, and print-focused artwork.",
         gallery: [
-          { src: "images/illustrations/drawing/tea-pot.jpg", alt: "Tea pot and lemon illustration", size: "tall", caption: "Tea Pot" },
-          { src: "images/illustrations/drawing/fruits.jpg", alt: "Fruit illustration", size: "tall", caption: "Fruit Study" },
-          { src: "images/illustrations/drawing/orchid-cup.jpg", alt: "Flower cup illustration", size: "tall", caption: "Flowers" }
+          { src: "images/illustrations/painting-drawing-print/tea-pot.jpg", alt: "Tea pot and lemon illustration", size: "small" },
+          { src: "images/illustrations/painting-drawing-print/fruits.jpg", alt: "Fruit illustration", size: "small" },
+          { src: "images/illustrations/painting-drawing-print/orchid-cup.jpg", alt: "Flower cup illustration", size: "small" }
         ]
       },
       {
-        slug: "sketchbook",
-        title: "Sketchbook",
-        cover: "images/illustrations/sketchbook/cover.jpg",
-        description: "Loose pages, experiments, process work, and visual research.",
+        slug: "sketchbook-art-challenges-personal-projects",
+        title: "Sketchbook, Art Challenges and Personal Projects",
+        cover: "images/illustrations/sketchbook-art-challenges-personal-projects/cover.jpg",
+        description: "Sketchbook pages, loose experiments, prompt-based work, and self-directed visual projects.",
         gallery: [
-          { src: "images/illustrations/sketchbook/forest-study.jpg", alt: "Green forest sketchbook study", size: "tall", caption: "Forest Study" }
-        ]
-      },
-      {
-        slug: "personal-projects",
-        title: "Personal Projects",
-        cover: "images/illustrations/personal-projects/cover.jpg",
-        description: "Self-directed work, painted objects, and visual worlds.",
-        gallery: [
-          { src: "images/illustrations/personal-projects/orchid-cup.jpg", alt: "Cup with flowers illustration", size: "tall", caption: "Flower Cup" },
-          { src: "images/illustrations/personal-projects/fruits.jpg", alt: "Fruit personal project illustration", size: "tall", caption: "Fruit Study" }
-        ]
-      },
-      {
-        slug: "art-challenges",
-        title: "Art Challenges",
-        cover: "images/illustrations/art-challenges/cover.jpg",
-        description: "Prompt-based illustration work and creative challenges.",
-        gallery: [
-          { src: "images/illustrations/art-challenges/tea-pot.jpg", alt: "Tea pot art challenge illustration", size: "tall", caption: "Tea Pot" },
-          { src: "images/illustrations/art-challenges/forest-study.jpg", alt: "Forest art challenge illustration", size: "normal", caption: "Forest" }
+          { src: "images/illustrations/sketchbook-art-challenges-personal-projects/forest-study.jpg", alt: "Green forest sketchbook study", size: "normal" },
+          { src: "images/illustrations/sketchbook-art-challenges-personal-projects/tea-pot.jpg", alt: "Tea pot illustration study", size: "small" },
+          { src: "images/illustrations/sketchbook-art-challenges-personal-projects/fruits.jpg", alt: "Fruit illustration study", size: "small" }
         ]
       }
     ]
   },
 
   about: {
-    title: "Tom Nevat",
+    title: "",
     text: [
       "Tom Nevat is a surface pattern designer and illustrator creating hand-drawn artwork for fabric, wallpaper, home decor, stationery, and print products. The work often starts with expressive sketches, painted textures, and loose linework, then develops into patterns, colorways, product mockups, and illustration pieces.",
       "Her visual language moves between botanical motifs, playful florals, boho-inspired coordinates, coastal themes, and everyday objects. The result is artwork that feels warm, handmade, and easy to imagine on real products.",
