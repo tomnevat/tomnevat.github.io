@@ -228,6 +228,13 @@ a:hover { text-decoration: underline; }
   padding: 14px;
 }
 
+.about-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+}
+
 .about-copy p {
   margin: 0;
   color: var(--ink);
