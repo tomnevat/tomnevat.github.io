@@ -13,7 +13,7 @@
     if (type === "pinterest") {
       return `
         <span class="social-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="M12 21c.7-2.2 1.1-3.7 1.4-5.2"></path><path d="M10.5 15.5c-.7 1.2-1.6 2.1-2.8 2.4"></path><path d="M12.2 3.5c-4.4 0-7.2 2.8-7.2 6.4 0 2.2 1.1 3.9 2.9 4.4.3.1.5 0 .6-.4l.3-1.2c.1-.3.1-.5-.2-.8-.5-.6-.8-1.2-.8-2.1 0-2.4 1.8-4.4 4.2-4.4 2.3 0 3.8 1.4 3.8 3.5 0 2.6-1.2 4.7-2.9 4.7-.9 0-1.6-.8-1.4-1.8.3-1.2.8-2.4.8-3.2 0-.7-.4-1.3-1.2-1.3-1 0-1.8 1-1.8 2.4 0 .9.3 1.5.3 1.5l-1.2 5.1"></path></svg>
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.2"></circle><text x="12" y="16.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" class="icon-fill">P</text></svg>
         </span>`;
     }
     return `<span class="social-icon text-icon" aria-hidden="true">${initials || "•"}</span>`;

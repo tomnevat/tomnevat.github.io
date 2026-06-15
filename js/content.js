@@ -5,12 +5,18 @@ window.LANDING_CONTENT = {
     "Tom Nevat creates hand-drawn illustration and surface pattern design for fabric, wallpaper, home decor, stationery, art prints and lifestyle products. The work combines expressive line, painterly texture, playful color, and nature-inspired motifs, with selected designs available for licensing and custom collaborations.",
 
   gallery: [
-    { src: "images/gallery/gallery-01.jpg", alt: "Portfolio gallery image 1" },
-    { src: "images/gallery/gallery-02.jpg", alt: "Portfolio gallery image 2" },
-    { src: "images/gallery/gallery-03.jpg", alt: "Portfolio gallery image 3" },
-    { src: "images/gallery/gallery-04.jpg", alt: "Portfolio gallery image 4" },
-    { src: "images/gallery/gallery-05.jpg", alt: "Portfolio gallery image 5" },
-    { src: "images/gallery/gallery-06.jpg", alt: "Portfolio gallery image 6" }
+    { src: "images/gallery/01-orange-wildflowers-pattern.jpg", alt: "Orange wildflower surface pattern by Tom Nevat" },
+    { src: "images/gallery/02-orange-notebook-mockup.jpg", alt: "Orange floral pattern notebook mockup" },
+    { src: "images/gallery/03-pink-notebook-mockup.jpg", alt: "Pink floral pattern notebook mockup" },
+    { src: "images/gallery/04-pink-wildflowers-pattern.jpg", alt: "Pink and green wildflower surface pattern" },
+    { src: "images/gallery/05-boho-wallpaper-mockup.jpg", alt: "Boho doodle wallpaper mockup" },
+    { src: "images/gallery/06-seashells-pattern.jpg", alt: "Blue seashell surface pattern" },
+    { src: "images/gallery/07-teapot-illustration.jpg", alt: "Teapot and fruit illustration" },
+    { src: "images/gallery/08-forest-illustration.jpg", alt: "Green forest illustration" },
+    { src: "images/gallery/09-fruits-illustration.jpg", alt: "Fruit illustration" },
+    { src: "images/gallery/10-flower-cup-illustration.jpg", alt: "Flower cup illustration" },
+    { src: "images/gallery/11-warm-floral-colorway.jpg", alt: "Warm floral pattern colorway" },
+    { src: "images/gallery/12-soft-floral-colorway.jpg", alt: "Soft floral pattern colorway" }
   ],
 
   catalogueMessage: "Access the full catalogue for a broader selection of available designs, licensing options, and custom collection work.",
