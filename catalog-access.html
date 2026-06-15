@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Full Catalog Access | Tom Nevat</title>
+  <meta name="description" content="Password access to the full Tom Nevat illustration and surface pattern design catalog." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="access-page">
+  <main class="access-card" aria-label="Full catalog password access">
+    <img class="logo" id="access-logo" src="images/logo.png" alt="Tom Nevat logo" />
+    <h1>Full Catalog Access</h1>
+    <p>Please enter the password to view the full catalog.</p>
+    <p>Best viewed on a desktop or laptop screen.</p>
+
+    <form class="password-form" id="password-form">
+      <label class="visually-hidden" for="catalog-password">Password</label>
+      <input id="catalog-password" type="password" autocomplete="current-password" placeholder="Password" />
+      <button type="submit">Enter</button>
+      <div class="error-message" id="password-error" aria-live="polite"></div>
+    </form>
+
+    <p class="password-note">For a password, please contact <a class="email-link" id="access-email" href="mailto:TomNevat@gmail.com">TomNevat@gmail.com</a></p>
+    <a class="back-link" href="index.html">Back to portfolio</a>
+  </main>
+
+  <script src="js/content.js"></script>
+  <script src="js/catalog-access.js"></script>
+</body>
+</html>

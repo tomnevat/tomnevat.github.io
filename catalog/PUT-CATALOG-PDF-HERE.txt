@@ -1,0 +1,6 @@
+Upload the full catalog PDF to this folder and name it exactly:
+
+tom-nevat-full-catalog.pdf
+
+The protected catalog page already points to:
+catalog/tom-nevat-full-catalog.pdf
