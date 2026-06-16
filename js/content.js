@@ -1,8 +1,7 @@
 window.LANDING_CONTENT = {
   logo: "images/logo.png",
   tagline: "Illustration and Surface Pattern Design",
-  brandIntro:
-    "Tom Nevat creates hand-drawn illustration and surface pattern design for fabric, wallpaper, home decor, stationery, art prints and lifestyle products. The work combines expressive line, painterly texture, playful color, and nature-inspired motifs, with selected designs available for licensing and custom collaborations.",
+  brandIntro: "Tom Nevat creates hand-drawn illustration and surface pattern design for fabric, wallpaper, home decor, stationery, art prints and lifestyle products. The work combines expressive line, painterly texture, playful color, and nature-inspired motifs, with selected designs available for licensing and custom collaborations.",
 
   gallery: [
     { src: "images/gallery/gallery-01.jpg", alt: "Tom Nevat portfolio gallery page 1" },
@@ -28,11 +27,5 @@ window.LANDING_CONTENT = {
     { label: "Good Mood Prints", type: "text", initials: "GM", url: "https://www.goodmoodprints.com/artists/tom.nevat?artist=b7f250bc-0982-4dd8-bdad-80d6d76da267" }
   ],
 
-  about:
-    "Hi, thank you for being here.
-My name is Tom, I’m an illustrator, surface pattern designer, landscape architect, and mother of two young kids, in no particular order.
-
-My work is rooted in a love for nature, everyday beauty, color, and thoughtful design. I’m drawn to small details, handmade marks, playful compositions, and the quiet charm of ordinary moments.
-
-If you like what you see, please be in touch, I’d love to collaborate."
+  about: "Hi, thank you for being here.\nMy name is Tom, I’m an illustrator, surface pattern designer, landscape architect, and mother of two young kids, in no particular order.\n\nMy work is rooted in a love for nature, everyday beauty, color, and thoughtful design. I’m drawn to small details, handmade marks, playful compositions, and the quiet charm of ordinary moments.\n\nIf you like what you see, please be in touch, I’d love to collaborate."
 };
