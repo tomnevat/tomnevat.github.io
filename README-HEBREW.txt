@@ -1,8 +1,15 @@
-Tom Nevat website - ready-to-replace version
+Tom Nevat website - final placeholder version
+
+מה עודכן:
+- כותרת המשנה Illustration and Surface Pattern Design הוגדלה מעט.
+- פסקת הפתיחה הוחזרה לנוסח המקורי.
+- טקסט ה-About עודכן לנוסח החדש.
+- הלוגו החדש בפנים.
+- יש 6 תמונות גלריה להחלפה.
+- יש תמונת About להחלפה.
 
 מה להחליף:
 1. גלריית דף הנחיתה:
-   החליפי את הקבצים שבתיקייה:
    images/gallery/
 
    השמות חייבים להישאר בדיוק:
@@ -14,11 +21,9 @@ Tom Nevat website - ready-to-replace version
    gallery-06.jpg
 
 2. תמונת About:
-   החליפי את הקובץ:
    images/about-photo.jpg
 
 3. קטלוג PDF:
-   החליפי את הקובץ:
    catalog/tom-nevat-full-catalog.pdf
 
 חשוב:

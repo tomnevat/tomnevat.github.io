@@ -29,5 +29,10 @@ window.LANDING_CONTENT = {
   ],
 
   about:
-    "Tom Nevat is an illustrator and surface pattern designer whose work begins with drawing, painting, sketchbook studies and handmade marks. Her visual language moves between botanical motifs, playful florals, boho-inspired coordinates, coastal themes and everyday objects, creating artwork that feels warm, personal and easy to imagine on real products."
+    "Hi, thank you for being here.
+My name is Tom, I’m an illustrator, surface pattern designer, landscape architect, and mother of two young kids, in no particular order.
+
+My work is rooted in a love for nature, everyday beauty, color, and thoughtful design. I’m drawn to small details, handmade marks, playful compositions, and the quiet charm of ordinary moments.
+
+If you like what you see, please be in touch, I’d love to collaborate."
 };

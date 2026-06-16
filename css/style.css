@@ -51,11 +51,11 @@ a:hover { text-decoration: underline; }
 }
 
 .tagline {
-  margin: 0 auto 20px;
+  margin: 0 auto 24px;
   max-width: 760px;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  font-size: 0.8rem;
+  font-size: 1.02rem;
   font-weight: 700;
 }
 
@@ -266,7 +266,7 @@ a:hover { text-decoration: underline; }
   .logo { width: min(120px, 38vw); }
 
   .tagline {
-    font-size: 0.72rem;
+    font-size: 0.86rem;
     letter-spacing: 0.12em;
   }
 
