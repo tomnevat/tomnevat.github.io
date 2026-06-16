@@ -1,7 +1,7 @@
 window.LANDING_CONTENT = {
   logo: "images/logo.png",
   tagline: "Illustration and Surface Pattern Design",
-  brandIntro: "Tom Nevat creates hand-drawn illustration and surface pattern design for fabric, wallpaper, home decor, stationery, art prints and lifestyle products. The work combines expressive line, painterly texture, playful color, and nature-inspired motifs, with selected designs available for licensing and custom collaborations.",
+  brandIntro: "Tom Nevat creates playful, expressive illustrations and surface pattern designs inspired by nature, everyday moments, and thoughtfully designed spaces. The work combines hand-painted textures, quirky details, florals, still lifes, and landscapes with a warm and joyful sense of composition. Blending traditional techniques with digital refinement, to create designs that feel personal, lively, and full of character. Made for interiors, textiles, home décor, stationery, and licensed products.",
 
   gallery: [
     { src: "images/gallery/gallery-01.jpg", alt: "Tom Nevat portfolio gallery page 1" },
